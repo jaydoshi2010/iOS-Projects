@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "54C6ED14-8E4F-4F4E-B637-EB7262306A2C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F94C0F9B-34E0-4E05-8A4B-B83E55D906C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Image Viewer/AddImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "DoneClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F94C0F9B-34E0-4E05-8A4B-B83E55D906C8 - e272571c6986841f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Image_Viewer.AddImageViewController.DoneClicked(Any) -&gt; ()"
+                  moduleName = "Image Viewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaydoshi/WORK/ITS/Semester-3/ios%20Development/Image%20Viewer/Image%20Viewer/AddImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "F94C0F9B-34E0-4E05-8A4B-B83E55D906C8 - e272571c6986841f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Image_Viewer.AddImageViewController.DoneClicked(Any) -&gt; ()"
+                  moduleName = "Image Viewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaydoshi/WORK/ITS/Semester-3/ios%20Development/Image%20Viewer/Image%20Viewer/AddImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "856">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D0D515-E08D-4E78-88D2-0143533711CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Image Viewer/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "didAddNewImage(title:imageURL:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD03FFA22ADB2C430073840C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03FFA12ADB2C430073840C /* AppDelegate.swift */; };
+		AD03FFA42ADB2C430073840C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03FFA32ADB2C430073840C /* SceneDelegate.swift */; };
+		AD03FFA62ADB2C430073840C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03FFA52ADB2C430073840C /* ViewController.swift */; };
+		AD03FFA92ADB2C430073840C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD03FFA72ADB2C430073840C /* Main.storyboard */; };
+		AD03FFAB2ADB2C440073840C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD03FFAA2ADB2C440073840C /* Assets.xcassets */; };
+		AD03FFAE2ADB2C440073840C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD03FFAC2ADB2C440073840C /* LaunchScreen.storyboard */; };
+		AD03FFB62ADB56520073840C /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03FFB52ADB56520073840C /* ResetViewController.swift */; };
+		AD9DB30F2AEB6255000E312E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DB30E2AEB6255000E312E /* HistoryViewController.swift */; };
+		ADA3E30B2AEDA35900213E20 /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3E30A2AEDA35900213E20 /* TicketManager.swift */; };
+		ADB65B192AEDF6E200E0A836 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB65B182AEDF6E200E0A836 /* DetailViewController.swift */; };
+		ADC09FA02AE8680A0083347A /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC09F9F2AE8680A0083347A /* TicketModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD03FF9E2ADB2C430073840C /* Toronto Raptors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toronto Raptors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD03FFA12ADB2C430073840C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD03FFA32ADB2C430073840C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD03FFA52ADB2C430073840C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD03FFA82ADB2C430073840C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD03FFAA2ADB2C440073840C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD03FFAD2ADB2C440073840C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD03FFAF2ADB2C440073840C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD03FFB52ADB56520073840C /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		AD9DB30E2AEB6255000E312E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		ADA3E30A2AEDA35900213E20 /* TicketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
+		ADB65B182AEDF6E200E0A836 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADC09F9F2AE8680A0083347A /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD03FF9B2ADB2C430073840C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD03FF952ADB2C430073840C = {
+			isa = PBXGroup;
+			children = (
+				AD03FFA02ADB2C430073840C /* Toronto Raptors */,
+				AD03FF9F2ADB2C430073840C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD03FF9F2ADB2C430073840C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD03FF9E2ADB2C430073840C /* Toronto Raptors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD03FFA02ADB2C430073840C /* Toronto Raptors */ = {
+			isa = PBXGroup;
+			children = (
+				AD03FFA12ADB2C430073840C /* AppDelegate.swift */,
+				AD03FFA32ADB2C430073840C /* SceneDelegate.swift */,
+				AD03FFA52ADB2C430073840C /* ViewController.swift */,
+				AD03FFB52ADB56520073840C /* ResetViewController.swift */,
+				AD03FFA72ADB2C430073840C /* Main.storyboard */,
+				AD03FFAA2ADB2C440073840C /* Assets.xcassets */,
+				AD03FFAC2ADB2C440073840C /* LaunchScreen.storyboard */,
+				AD03FFAF2ADB2C440073840C /* Info.plist */,
+				ADC09F9F2AE8680A0083347A /* TicketModel.swift */,
+				AD9DB30E2AEB6255000E312E /* HistoryViewController.swift */,
+				ADA3E30A2AEDA35900213E20 /* TicketManager.swift */,
+				ADB65B182AEDF6E200E0A836 /* DetailViewController.swift */,
+			);
+			path = "Toronto Raptors";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD03FF9D2ADB2C430073840C /* Toronto Raptors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD03FFB22ADB2C440073840C /* Build configuration list for PBXNativeTarget "Toronto Raptors" */;
+			buildPhases = (
+				AD03FF9A2ADB2C430073840C /* Sources */,
+				AD03FF9B2ADB2C430073840C /* Frameworks */,
+				AD03FF9C2ADB2C430073840C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toronto Raptors";
+			productName = "Toronto Raptors";
+			productReference = AD03FF9E2ADB2C430073840C /* Toronto Raptors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD03FF962ADB2C430073840C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AD03FF9D2ADB2C430073840C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AD03FF992ADB2C430073840C /* Build configuration list for PBXProject "Toronto Raptors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD03FF952ADB2C430073840C;
+			productRefGroup = AD03FF9F2ADB2C430073840C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD03FF9D2ADB2C430073840C /* Toronto Raptors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD03FF9C2ADB2C430073840C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD03FFAE2ADB2C440073840C /* LaunchScreen.storyboard in Resources */,
+				AD03FFAB2ADB2C440073840C /* Assets.xcassets in Resources */,
+				AD03FFA92ADB2C430073840C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD03FF9A2ADB2C430073840C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC09FA02AE8680A0083347A /* TicketModel.swift in Sources */,
+				AD03FFA62ADB2C430073840C /* ViewController.swift in Sources */,
+				AD03FFA22ADB2C430073840C /* AppDelegate.swift in Sources */,
+				AD9DB30F2AEB6255000E312E /* HistoryViewController.swift in Sources */,
+				AD03FFB62ADB56520073840C /* ResetViewController.swift in Sources */,
+				AD03FFA42ADB2C430073840C /* SceneDelegate.swift in Sources */,
+				ADA3E30B2AEDA35900213E20 /* TicketManager.swift in Sources */,
+				ADB65B192AEDF6E200E0A836 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD03FFA72ADB2C430073840C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD03FFA82ADB2C430073840C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD03FFAC2ADB2C440073840C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD03FFAD2ADB2C440073840C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD03FFB02ADB2C440073840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD03FFB12ADB2C440073840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD03FFB32ADB2C440073840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toronto Raptors/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydoshi2010.Toronto-Raptors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD03FFB42ADB2C440073840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toronto Raptors/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydoshi2010.Toronto-Raptors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD03FF992ADB2C430073840C /* Build configuration list for PBXProject "Toronto Raptors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03FFB02ADB2C440073840C /* Debug */,
+				AD03FFB12ADB2C440073840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD03FFB22ADB2C440073840C /* Build configuration list for PBXNativeTarget "Toronto Raptors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03FFB32ADB2C440073840C /* Debug */,
+				AD03FFB42ADB2C440073840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD03FF962ADB2C430073840C /* Project object */;
+}
